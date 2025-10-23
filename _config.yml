@@ -1,0 +1,39 @@
+gordon-wells-memorial/
+│
+├── _config.yml                 # ← Site configuration (from artifact #1)
+│
+├── _layouts/                   # ← Page templates
+│   ├── default.html           # ← Main layout (from artifact #2)
+│   └── photo.html             # ← Photo detail page (from artifact #5)
+│
+├── _photos/                    # ← Photo data files
+│   ├── 2018-06-15-gordon-at-tacc.md
+│   ├── 2019-08-20-hurricane-response.md
+│   └── 2020-03-10-team-meeting.md
+│   # Add one .md file per photo
+│   # Use template from artifact #4
+│
+├── images/                     # ← Actual photo files
+│   ├── work/
+│   │   ├── gordon-at-tacc.jpg
+│   │   └── presentation-2019.jpg
+│   ├── field/
+│   │   └── hurricane-harvey.jpg
+│   ├── team/
+│   │   └── team-meeting.jpg
+│   ├── personal/
+│   │   └── east-texas-wildlife.jpg
+│   └── nature/
+│       └── fox-birdbath.jpg
+│
+├── index.html                  # ← Gallery homepage (from artifact #3)
+├── contribute.md               # ← Contribution guide (from artifact #6)
+├── about.md                    # ← About Gordon page
+├── stories.md                  # ← Stories page
+│
+├── .github/                    # ← GitHub configuration
+│   └── ISSUE_TEMPLATE/
+│       └── photo-submission.md
+│
+├── README.md                   # ← Repository documentation
+└── Gemfile                     # ← Optional, for local development
